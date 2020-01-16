@@ -378,7 +378,7 @@ def main():
 
     try:
         js = json.loads(content)
-    except ValueError, e:
+    except ValueError:
         js = ""
 
     uresp['json'] = js
